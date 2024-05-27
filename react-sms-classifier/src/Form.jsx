@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import axios from 'axios'
+import './Form.css'
 
 export default function Form() {
     let [message,setMessage] = useState('');
