@@ -14,5 +14,6 @@ def classify_messege():
     classification = model.predict(ready_input(messege))
     return jsonify({'classification': int(classification)})
 
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
